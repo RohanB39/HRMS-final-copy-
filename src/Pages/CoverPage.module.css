@@ -1,0 +1,574 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.coverPageWrapper {
+  height: 100vh;
+  width: 90%;
+  background-color: #fff;
+  position: relative;
+
+  margin: auto;
+}
+
+.logo {
+  /* margin: 1rem; */
+  padding-top: 1rem;
+}
+
+.logo p {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #312f28;
+}
+
+.logo p span {
+  color: #627ab0;
+}
+
+.portraits {
+  width: 90%;
+  margin: auto;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  /* background-color: #627AB0; */
+}
+
+.pr1 {
+  position: absolute;
+  top: 30%;
+  left: 48%;
+  z-index: 2;
+}
+
+.pr2 {
+  position: absolute;
+  top: 16%;
+  left: 42%;
+  z-index: 1;
+}
+
+.pr5 {
+  position: absolute;
+  top: 34%;
+  left: 34%;
+  z-index: 1;
+}
+
+.pr6 {
+  position: absolute;
+  top: 24%;
+  left: 22%;
+  z-index: 1;
+}
+
+.pr7 {
+  position: absolute;
+  top: 18%;
+  left: 28%;
+  z-index: 2;
+}
+
+.pr8 {
+  position: absolute;
+  top: 28%;
+  right: 24%;
+  z-index: 2;
+}
+
+.pr9 {
+  position: absolute;
+  top: 16%;
+  right: 32%;
+  z-index: 2;
+}
+
+.pr10 {
+  position: absolute;
+  top: 10%;
+  right: 30%;
+  z-index: 2;
+}
+
+.pr11 {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  z-index: 2;
+}
+
+.pr12 {
+  position: absolute;
+  top: 16%;
+  left: 16%;
+  z-index: 2;
+}
+
+.infoCard1 {
+  position: absolute;
+  top: -20%;
+  left: -80%;
+  background-color: white;
+  text-wrap: nowrap;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  letter-spacing: 0.6px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.infoCard2 {
+  position: absolute;
+  bottom: -20%;
+  right: -60%;
+  text-wrap: nowrap;
+  font-size: 10px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  letter-spacing: 0.6px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.infoCard3 {
+  position: absolute;
+  bottom: -10%;
+  left: -40%;
+  background-color: white;
+  text-wrap: nowrap;
+  font-size: 10px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  letter-spacing: 0.6px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.portraits .pr1 img,
+.portraits .pr2 img {
+  height: 110px;
+  width: 110px;
+  border-radius: 40%;
+}
+
+.portraits .pr5 img {
+  height: 70px;
+  width: 70px;
+  border-radius: 40%;
+}
+
+.portraits .pr6 img {
+  height: 90px;
+  width: 90px;
+  border-radius: 40%;
+}
+
+.portraits .pr7 img {
+  height: 60px;
+  width: 60px;
+  border-radius: 40%;
+  object-fit: contain;
+}
+
+.portraits .pr8 img {
+  height: 80px;
+  width: 80px;
+  border-radius: 40%;
+  object-fit: contain;
+}
+
+.portraits .pr9 img {
+  height: 70px;
+  width: 70px;
+  border-radius: 40%;
+  object-fit: contain;
+}
+
+.portraits .pr10 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 40%;
+  object-fit: contain;
+}
+
+.portraits .pr11 img,
+.portraits .pr12 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 40%;
+  object-fit: contain;
+}
+
+.portraits .pr1 {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  border-radius: 40%;
+}
+
+.pr1 .icon,
+.pr2 .icon,
+.pr5 .icon,
+.pr6 .icon,
+.pr7 .icon,
+.pr8 .icon,
+.pr9 .icon,
+.pr10 .icon,
+.pr11 .icon,
+.pr12 .icon {
+  position: absolute;
+  bottom: -5px;
+  left: -3px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #627ab0;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(15, 148, 225, 0.416);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(103, 221, 18, 0.018);
+  }
+}
+
+.heading {
+  text-align: center;
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.heading h4 {
+
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.heading p {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+.btn {
+  background-color: #7E80FF;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 5px 24px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #312f28;
+  color: white;
+}
+
+
+
+
+
+
+/* Responsive CSS */
+@media screen and (max-width: 480px) {
+
+  /* For mobile devices */
+  .coverPageWrapper {
+    width: 95%;
+  }
+
+  .logo {
+    padding-top: 2rem;
+  }
+
+  .portraits {
+    width: 100%;
+  }
+
+  .pr2 {
+    display: none;
+  }
+
+  .pr1 {
+    position: absolute;
+    top: 26%;
+    left: 36%;
+    z-index: 2;
+  }
+
+  .pr5 {
+    position: absolute;
+    top: 38%;
+    left: 10%;
+
+  }
+
+  .pr6 {
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    z-index: 1;
+  }
+
+  .pr7 {
+    position: absolute;
+    top: 12%;
+    left: 32%;
+    z-index: 2;
+  }
+
+  .pr8 {
+    position: absolute;
+    top: 36%;
+    right: 20%;
+    z-index: 1;
+  }
+
+  .pr9 {
+    position: absolute;
+    top: 16%;
+    right: 20%;
+    z-index: 2;
+  }
+
+  .pr10 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+  }
+
+  .pr11 {
+    position: absolute;
+    top: 12%;
+    right: 14%;
+    z-index: 2;
+  }
+
+  .pr12 {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    z-index: 2;
+    /* display: none; */
+  }
+
+  .portraits .pr1 img {
+    height: 100px;
+    width: 100px;
+
+  }
+
+  .portraits .pr5 img {
+    height: 60px;
+    width: 60px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+  }
+
+  .portraits .pr6 img {
+    height: 90px;
+    width: 90px;
+
+  }
+
+  .portraits .pr7 img {
+    height: 60px;
+    width: 60px;
+
+
+  }
+
+  .portraits .pr8 img {
+    height: 70px;
+    width: 70px;
+
+  }
+
+  .portraits .pr9 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 40%;
+    object-fit: contain;
+  }
+
+  .heading {
+    text-align: center;
+    width: 95%;
+    margin: 4rem auto;
+  }
+
+  .heading h4 {
+    font-size: 24px;
+
+  }
+
+  .heading p {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+
+  .portraits {
+    width: 90%;
+  }
+
+  .pr2 {
+    display: none;
+  }
+
+  .pr1 {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    z-index: 2;
+  }
+
+  .pr5 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+
+  }
+
+  .pr6 {
+    position: absolute;
+    top: 24%;
+    left: 16%;
+    z-index: 1;
+  }
+
+  .pr7 {
+    position: absolute;
+    top: 16%;
+    left: 32%;
+    z-index: 2;
+  }
+
+  .pr8 {
+    position: absolute;
+    top: 38%;
+    right: 24%;
+    z-index: 1;
+  }
+
+  .pr9 {
+    position: absolute;
+    top: 20%;
+    right: 28%;
+    z-index: 2;
+  }
+
+  .pr10 {
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    z-index: 2;
+    display: none;
+  }
+
+  .pr11 {
+    position: absolute;
+    top: 12%;
+    right: 20%;
+    z-index: 2;
+  }
+
+  .pr12 {
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    z-index: 2;
+    /* display: none; */
+  }
+
+  .portraits .pr1 img {
+    height: 110px;
+    width: 110px;
+
+  }
+
+  .portraits .pr5 img {
+    height: 60px;
+    width: 60px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+  }
+
+  .portraits .pr6 img {
+    height: 90px;
+    width: 90px;
+
+  }
+
+  .portraits .pr7 img {
+    height: 60px;
+    width: 60px;
+
+
+  }
+
+  .portraits .pr8 img {
+    height: 70px;
+    width: 70px;
+
+  }
+
+  .portraits .pr9 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 40%;
+    object-fit: contain;
+  }
+
+  .heading {
+    width: 90%;
+    margin: 4rem auto;
+  }
+
+  .heading h4 {
+    font-size: 24px;
+
+  }
+
+  .heading p {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+
+
+
+}

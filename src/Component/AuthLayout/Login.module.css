@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.rightSide {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innerCircle {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  border: 6px solid rgba(128, 128, 128, 0.418);
+  position: relative;
+}
+.innerCircle .icon {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  background-color: blueviolet;
+  color: white;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.innerCircle img {
+  border-radius: 50%;
+}
+.outerCircle {
+  height: 400px;
+  width: 400px;
+  background-color: rgba(240, 248, 255, 0.671);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.portraits .port1 {
+  position: absolute;
+  top: 0rem;
+  left: 2rem;
+}
+.portraits .port2 {
+  position: absolute;
+  top: 10rem;
+  left: -1rem;
+}
+.portraits .port3 {
+  position: absolute;
+  top: 15rem;
+  left: -1rem;
+}
+.portraits .port4 {
+  position: absolute;
+  bottom: 0rem;
+  right: 6rem;
+}
+.portraits .port5 {
+  position: absolute;
+  bottom: 2rem;
+  right: 0rem;
+}
+.portraits .port6 {
+  position: absolute;
+  bottom: 8rem;
+  right: 0rem;
+}
+.portraits .port1 img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.portraits .port2 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.portraits .port3 img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.portraits .port4 img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.portraits .port5 img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.portraits .port6 img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
